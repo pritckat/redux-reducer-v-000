@@ -1,4 +1,4 @@
-let state = {friends = []};
+let state = {friends: []};
 
 export function manageFriends(state, action){
   switch(action.type) {
@@ -20,5 +20,5 @@ export function manageFriends(state, action){
     default:
       return state;
   }
-  
+
 }
